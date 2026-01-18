@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Java Interview Questions</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="navbar">
+    <h1>☕ Java Interview Questions</h1>
+  </header>
+
+  <!-- SEARCH & FILTER -->
+  <section class="controls">
+    <input type="text" id="searchInput" placeholder="Search questions...">
+    <select id="topicFilter">
+      <option value="All">All Topics</option>
+      <option value="Core Java">Core Java</option>
+      <option value="OOP">OOP</option>
+      <option value="Collections">Collections</option>
+      <option value="Spring">Spring</option>
+    </select>
+  </section>
+
+  <!-- QUESTIONS -->
+  <section id="questionsContainer"></section>
+
+  <script src="data/oop.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
